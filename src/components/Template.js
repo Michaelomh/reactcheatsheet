@@ -1,4 +1,5 @@
 import React from 'react';
+import { Row, Col } from 'react-bootstrap';
 
 class Template extends React.Component {
   constructor(props) {
@@ -10,19 +11,19 @@ class Template extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="template">
         <Row>
-          <Col><h3>1 Column</h3>
+          <Col sm={12}><h3>1 Column</h3>
             <pre><code>
             <p>{``}</p>
             </code></pre></Col>
         </Row>
         <Row>
-          <Col><h3>2 Column</h3>
+          <Col sm={6}><h3>2 Column</h3>
             <pre><code>
             <p>{``}</p>
             </code></pre></Col>
-          <Col><h3>2 Column</h3>
+          <Col sm={6}><h3>2 Column</h3>
             <pre><code>
             <p>{``}</p>
             </code></pre></Col>
