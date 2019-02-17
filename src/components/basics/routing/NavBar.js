@@ -25,14 +25,14 @@ class NavBar extends React.Component {
                         }}>
                             <Link to='/' className="nav-link">Home</Link>
 
-                            <NavDropdown title="Basics" id="basic-nav-dropdown">
+                            <NavDropdown title="Main Concepts" id="basic-nav-dropdown">
                                 <Link to='/classes'>Classes</Link><br/>
                                 <Link to='/states'>State + Props</Link><br/>
+                                <Link to='/events'>Events</Link><br/>
                                 <Link to='/forms'>Forms</Link><br/>
-                                <Link to='/binding'>binding</Link><br/>
                             </NavDropdown>
 
-                            <NavDropdown title="Advanced" id="basic-nav-dropdown">
+                            <NavDropdown title="Advance Guide" id="basic-nav-dropdown">
                                 <Link to='/api'>Libraries/Api</Link><br/>
                                 <Link to='/mapping'>Mapping</Link><br/>
                             </NavDropdown>

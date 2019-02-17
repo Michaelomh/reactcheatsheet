@@ -32,8 +32,8 @@ class Home extends React.Component {
                     </Col>
                     <Col sm={3}>
                         <Homepanel
-                            title="Binding"
-                            link="/binding"
+                            title="Events"
+                            link="/events"
                             category="orange-bg-1"
                             icon="link"
                             iconType="far"/>

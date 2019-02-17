@@ -29,6 +29,10 @@ a:hover {
     margin-top: 25px;
 }
 
+.line-section {
+    border: 1px solid #333333;
+}
+
 /****************************************
 Colours
 ****************************************/
@@ -47,6 +51,7 @@ Colours
 .orange-bg-4 {
     background-color: #f15d0a;
 }
+
 
 /****************************************
 Home

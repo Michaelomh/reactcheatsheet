@@ -12,6 +12,9 @@ import { far } from '@fortawesome/pro-regular-svg-icons';
 import NavBar from './basics/routing/NavBar';
 import Home from './Home';
 import ReactClass from './basics/classes/ReactClass';
+import States from './basics/state/States';
+import BindingExample from './basics/events/BindingExample';
+import Events from './basics/events/Events';
 import FontAwesome from './libraries/FontAwesome';
 
 library.add(fab, fas, far, fal)
@@ -25,7 +28,9 @@ class App extends React.Component {
                     <Switch>
                         <Route exact path='/' component={Home}/>
                         <Route exact path='/classes' component={ReactClass} />
-                        <Route exact path='/binding'  />
+                        <Route exact path='/states' component={States} />
+                        <Route exact path='/events' component={Events} />
+                        <Route exact path='/events-binding' component={BindingExample} />
                         <Route exact path='/forms' />
                         <Route exact path='/firebase' />
                         <Route exact path='/api' />
