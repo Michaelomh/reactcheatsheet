@@ -29,12 +29,14 @@ class NavBar extends React.Component {
                                 <Link to='/classes'>Classes</Link><br/>
                                 <Link to='/states'>State + Props</Link><br/>
                                 <Link to='/events'>Events</Link><br/>
-                                <Link to='/forms'>Forms</Link><br/>
+                                <Link to='/thinking'>React Thinking</Link><br/>
                             </NavDropdown>
 
                             <NavDropdown title="Advance Guide" id="basic-nav-dropdown">
                                 <Link to='/api'>Libraries/Api</Link><br/>
                                 <Link to='/mapping'>Mapping</Link><br/>
+                                <Link to='/render'>Render</Link><br/>
+                                <Link to='/composition'>Composition</Link><br/>
                             </NavDropdown>
 
                             <NavDropdown title="Libraries" id="basic-nav-dropdown">
@@ -43,6 +45,9 @@ class NavBar extends React.Component {
                                 <Link to='/axios'>Axios</Link><br/>
                                 <Link to='/cookies'>Cookies</Link><br/>
                                 <Link to='/testing'>Testing</Link><br/>
+                                <Link to='/toastr'>Toastr</Link><br/>
+                                <Link to='/finalform'>Final Form</Link><br/>
+                                <Link to='/bootstrap'>Bootstrap</Link><br/>
                             </NavDropdown>
                         </Nav>
                     </Navbar.Collapse>

@@ -39,11 +39,11 @@ class Home extends React.Component {
                             iconType="far"/>
                     </Col>
                     <Col sm={3}>
-                        <Homepanel
-                            title="Forms"
-                            link="/forms"
+                    <Homepanel
+                            title="React Thinking"
+                            link="/thinking"
                             category="orange-bg-1"
-                            icon="pencil-alt"
+                            icon="head-side-brain"
                             iconType="fas"/>
                     </Col>
                 </Row>
@@ -66,8 +66,20 @@ class Home extends React.Component {
                             iconType="fal"/>
                     </Col>
                     <Col sm={3}>
+                    <Homepanel
+                            title="Render"
+                            link="/render"
+                            category="orange-bg-2"
+                            icon="paint-brush"
+                            iconType="fas"/>
                     </Col>
                     <Col sm={3}>
+                    <Homepanel
+                            title="Composition"
+                            link="/composition"
+                            category="orange-bg-2"
+                            icon="box-full"
+                            iconType="fas"/>
                     </Col>
                 </Row>
 
@@ -112,15 +124,29 @@ class Home extends React.Component {
                             icon="vial"
                             iconType="fas"/>
                     </Col>
-                </Row>
-
-                <Row>
-                    
                     <Col sm={3}>
+                        <Homepanel
+                            title="Final Form"
+                            link="/finalform"
+                            category="orange-bg-3"
+                            icon="list-ul"
+                            iconType="far"/>
                     </Col>
                     <Col sm={3}>
+                        <Homepanel
+                            title="Bootstrap"
+                            link="/bootstrap"
+                            category="orange-bg-3"
+                            icon="bimobject"
+                            iconType="fab"/>
                     </Col>
                     <Col sm={3}>
+                        <Homepanel
+                            title="Toastr"
+                            link="/toastr"
+                            category="orange-bg-3"
+                            icon="bread-slice"
+                            iconType="fas"/>
                     </Col>
                 </Row>
             </div>

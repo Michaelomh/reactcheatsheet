@@ -1,4 +1,5 @@
 import React from 'react';
+import BindingFromOtherClass from './BindingFromOtherClass';
 
 class BindingExample extends React.Component {
     constructor(props) {
@@ -29,6 +30,10 @@ class BindingExample extends React.Component {
         this.setState({isToggleOnThree: !this.state.isToggleOnThree});
     }
 
+    alert = () => {
+      alert("from another class");
+    }
+
     render() {
         return (
           <div>
@@ -43,7 +48,12 @@ class BindingExample extends React.Component {
             <button onClick={this.handleClickThree}>
               {this.state.isToggleOnThree ? 'Arrow Function in Method' : 'OFF'}
             </button >
-          </div>);
+
+            <BindingFromOtherClass 
+              alert={this.alert}
+            />
+          </div>
+        );
     }
 }
 
