@@ -5,7 +5,19 @@ Font Awesome
     padding-bottom: 25px;
 }
 
-
 /****************************************
 FireBase
 ****************************************/
+
+/****************************************
+Toastr
+****************************************/
+.toastrButtons .btn {
+    margin: 2px;
+    padding: 1.5px;
+}
+
+.toastrTable tbody tr td,
+.toastrTable thead tr th {
+    padding: 3px;
+}

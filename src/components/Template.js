@@ -17,8 +17,6 @@ class Template extends React.Component {
             <pre><code>
             <p>{``}</p>
             </code></pre></Col>
-        </Row>
-        <Row>
           <Col sm={6}><h3>2 Column</h3>
             <pre><code>
             <p>{``}</p>
