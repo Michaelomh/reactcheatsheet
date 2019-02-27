@@ -38,21 +38,13 @@ class Home extends React.Component {
                             icon="link"
                             iconType="far"/>
                     </Col>
-                    <Col sm={3}>
-                    <Homepanel
-                            title="React Thinking"
-                            link="/thinking"
-                            category="orange-bg-1"
-                            icon="head-side-brain"
-                            iconType="fas"/>
-                    </Col>
                 </Row>
 
                 <Row>
                     <Col sm={3}>
                         <Homepanel
-                            title="APIs"
-                            link="/api"
+                            title="Advanced Guide"
+                            link="/advanceGuide"
                             category="orange-bg-2"
                             icon="book"
                             iconType="far"/>
@@ -131,14 +123,6 @@ class Home extends React.Component {
                             category="orange-bg-3"
                             icon="list-ul"
                             iconType="far"/>
-                    </Col>
-                    <Col sm={3}>
-                        <Homepanel
-                            title="Bootstrap"
-                            link="/bootstrap"
-                            category="orange-bg-3"
-                            icon="bimobject"
-                            iconType="fab"/>
                     </Col>
                     <Col sm={3}>
                         <Homepanel
