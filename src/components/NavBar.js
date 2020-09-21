@@ -12,7 +12,7 @@ class NavBar extends React.Component {
                         width: '180px'
                     }}>
                         <img
-                            src={require('../../../img/avatar.png')}
+                            src={require('../img/avatar.png')}
                             className="img-fluid"
                             alt="Datayse Logo"/>
                     </Navbar.Brand>
@@ -40,11 +40,11 @@ class NavBar extends React.Component {
 
                             <NavDropdown title="Libraries" id="basic-nav-dropdown">
                                 <Link to='/fontawesome'>FontAwesome</Link><br/>
+                                <Link to='/firebase'>Firebase</Link><br/>
+                                <Link to='/bootstrap'>React Bootstrap</Link><br/>
                                 <Link to='/axios'>Axios</Link><br/>
-                                <Link to='/cookies'>Cookies</Link><br/>
                                 <Link to='/testing'>Testing</Link><br/>
                                 <Link to='/toastr'>Toastr</Link><br/>
-                                <Link to='/finalform'>Final Form</Link><br/>
                             </NavDropdown>
                         </Nav>
                     </Navbar.Collapse>

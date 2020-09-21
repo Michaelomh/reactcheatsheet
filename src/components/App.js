@@ -1,17 +1,11 @@
 import React from 'react';
 import 'react-toastify/dist/ReactToastify.css';
 
-import { Container } from 'react-bootstrap';
-import { Switch, Route } from 'react-router-dom';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-import { fas } from '@fortawesome/pro-solid-svg-icons';
-import { fal } from '@fortawesome/pro-light-svg-icons';
-import { far } from '@fortawesome/pro-regular-svg-icons';
-import { ToastContainer } from 'react-toastify';
-
+import {Container} from 'react-bootstrap';
+import {Route, Switch} from 'react-router-dom';
+import {ToastContainer} from 'react-toastify';
 //Class imports
-import NavBar from './basics/routing/NavBar';
+import NavBar from './NavBar';
 import Home from './Home';
 import ReactClass from './basics/classes/ReactClass';
 import States from './basics/state/States';
@@ -23,8 +17,7 @@ import FontAwesome from './libraries/FontAwesome';
 import Firebase from './libraries/firebase/Firebase';
 import Toastr from './libraries/toastr/Toastr';
 import AdvanceGuide from './advanced/advanceGuide/AdvanceGuide';
-
-library.add(fab, fas, far, fal)
+import Bootstrap from './libraries/reactBootstrap/ReactBootstrap';
 
 class App extends React.Component {
     render() {
@@ -48,7 +41,7 @@ class App extends React.Component {
                         <Route exact path='/fontawesome' component={FontAwesome} />
                         <Route exact path='/finalform' />
                         <Route exact path='/toastr' component={Toastr} />
-                        <Route exact path='/bootstrap' />
+                        <Route exact path='/bootstrap' component={Bootstrap} />
                     </Switch>
                 </Container>
                 <ToastContainer />

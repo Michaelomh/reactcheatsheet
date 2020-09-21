@@ -72,6 +72,11 @@ Home
     border-radius: 5px;
 }
 
-.home-panel span {
+.home-panel-title {
     font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.home-panel-icon {
+    float: left;
 }

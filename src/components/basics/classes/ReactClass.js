@@ -40,6 +40,7 @@ export default Welcome;`}
                     </Col>
                     <Col sm={6}>
                         <h3>React Functional Components</h3>
+          <p>There are 2 ways to build a functional component and both are very similar in terms of functionality.</p>
                         <pre><code>
               <p>{`import React from 'react';
 
@@ -49,7 +50,12 @@ const Welcome = (props) => {
     )
 }
 
-export default Welcome;`}</p>
+function Welcome2(props) {
+    return <div>Hello {props.name}</div>;
+}
+
+export default Welcome;
+export default Welcome2;`}</p>
             </code></pre>
             <p>
                       *Props cannot be changed, as such functions inside functions cannot be updated.<br />
