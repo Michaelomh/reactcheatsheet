@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 
-class Template extends React.Component {
+class Lifecycle extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -11,9 +11,9 @@ class Template extends React.Component {
 
   render() {
     return (
-      <div className="template">
+      <div className="lifecycle">
         <Row>
-          <Col sm={12}><h3>1 Column</h3>
+          <Col sm={12}><h3>React Lifecycle</h3>
             <pre><code>
             <p>{``}</p>
             </code></pre>
@@ -40,4 +40,4 @@ class Template extends React.Component {
   }
 }
 
-export default Template;
+export default Lifecycle;

@@ -2,12 +2,13 @@ import React from 'react';
 import {Col, Row} from 'react-bootstrap'
 import Homepanel from './Homepanel'
 import {AddressBook, Clone} from '@styled-icons/fa-regular'
-import {BreadSlice, Vial, Fire, Plug} from '@styled-icons/fa-solid'
+import {BreadSlice, Vial, Fire, Plug, Cubes, Recycle} from '@styled-icons/fa-solid'
 import {Bootstrap, FontAwesome} from '@styled-icons/fa-brands'
 import {Table, ListNested} from '@styled-icons/bootstrap'
 import {BookBookmark} from '@styled-icons/boxicons-solid/BookBookmark'
 import {Paintbrush} from '@styled-icons/octicons/Paintbrush'
 import {ActionRedo} from '@styled-icons/open-iconic/ActionRedo';
+import {FlowTree} from '@styled-icons/entypo/FlowTree';
 
 class Home extends React.Component {
     constructor(props) {
@@ -31,6 +32,14 @@ class Home extends React.Component {
                     </Col>
                     <Col sm={3}>
                         <Homepanel
+                            title="Props"
+                            link="/props"
+                            category="orange-bg-1">
+                            <Cubes size="32"/>
+                        </Homepanel>
+                    </Col>
+                    <Col sm={3}>
+                        <Homepanel
                             title="States"
                             link="/states"
                             category="orange-bg-1">
@@ -43,6 +52,22 @@ class Home extends React.Component {
                             link="/events"
                             category="orange-bg-1">
                             <ActionRedo size="32"/>
+                        </Homepanel>
+                    </Col>
+                    <Col sm={3}>
+                        <Homepanel
+                            title="Dataflow"
+                            link="/dataflow"
+                            category="orange-bg-1">
+                            <FlowTree size="32"/>
+                        </Homepanel>
+                    </Col>
+                    <Col sm={3}>
+                        <Homepanel
+                            title="Lifecycle"
+                            link="/lifecycle"
+                            category="orange-bg-1">
+                            <Recycle size="32"/>
                         </Homepanel>
                     </Col>
                 </Row>

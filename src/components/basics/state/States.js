@@ -1,5 +1,6 @@
 import React from 'react';
-import {Row, Col} from 'react-bootstrap';
+import {Col, Row} from 'react-bootstrap';
+import {Link} from "react-router-dom";
 
 class States extends React.Component {
     constructor(props) {
@@ -33,6 +34,12 @@ this.setState((state, props) => ({
                             <li>After a value of setState is changed, it will re render the whole component
                                 which uses that state.</li>
                         </ul>
+                    </Col>
+                    <Col sm={12}>
+                        <h3>Examples</h3>
+                        <Link to='/clickCounter'>
+                            <button>Click Counter</button>
+                        </Link>
                     </Col>
                 </Row>
             </div>
